@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js"></script>
+    <script src="../js/api.js"></script>
+</head>
+<body>
+
+<div id="particles-js">
+    <form  class="login" >
+        <div class="login-top"> 登录 </div>
+<!--        用户名相关-->
+        <div class="login-center clearfix">
+            <div class="login-center-img"><img src="../img/user/name.png"/></div>
+            <div class="login-center-input">
+                <input type="text" name="username" id="username"  placeholder="请输入您的用户名"/>
+                <div class="login-center-input-text">用户名</div>
+                <span id="usernameMsg"></span>
+            </div>
+        </div>
+<!--        密码相关-->
+        <div class="login-center clearfix">
+            <div class="login-center-img"><img src="../img/user/password.png"/></div>
+            <div class="login-center-input">
+                <input type="password" name="password" id="password" placeholder="请输入您的密码" />
+                <div class="login-center-input-text">密码</div>
+                <span id="passwordMsg"></span>
+            </div>
+        </div>
+        <div class="login-button" id="submit">
+            登录
+        </div>
+        <!--        返回首页-->
+        <a href="index.html">
+            <div class="login-button">回到首页 </div>
+        </a>
+    </form>
+</div>
+</body>
+</html>

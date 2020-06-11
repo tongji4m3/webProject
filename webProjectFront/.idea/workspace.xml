@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06f81247-3a52-4b90-81d0-00758cb442c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cqwY9CgZL8HuR2SYZNl9lNBgud" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\img" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\js" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\html\productDetails" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\css" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\img\user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12549\Desktop\web\webProjectFront\project" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\html" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\html\buy" />
+      <recent name="C:\Users\12549\Desktop\webProjectFront\project\html\productDetails" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:8081" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webProjectFront/project/html/register.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_webProjectFront" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52950" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:8081" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06f81247-3a52-4b90-81d0-00758cb442c7" name="Default Changelist" comment="" />
+      <created>1591269475645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591269475645</updated>
+      <workItem from="1591269477185" duration="5078000" />
+      <workItem from="1591305615316" duration="6871000" />
+      <workItem from="1591312977651" duration="22387000" />
+      <workItem from="1591360183297" duration="3360000" />
+      <workItem from="1591397323717" duration="31274000" />
+      <workItem from="1591450434092" duration="1750000" />
+      <workItem from="1591452609377" duration="609000" />
+      <workItem from="1591478168582" duration="15407000" />
+      <workItem from="1591496262207" duration="605000" />
+      <workItem from="1591535115774" duration="1218000" />
+      <workItem from="1591572109921" duration="52000" />
+      <workItem from="1591580353531" duration="1196000" />
+      <workItem from="1591789947826" duration="1682000" />
+      <workItem from="1591852721186" duration="7522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1591269486389">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1591269486389" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591360411317">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1591360411317" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591271601102">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1591271601102" />
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1591572156896">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591572156896" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1591360654853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591360654853" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1591360654853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591360654853" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1591360654853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591360654853" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1591360654853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591360654853" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.2.bottom" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.2.center" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.2.left" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="1493" height="277" key="GridCell.Tab.2.right" timestamp="1591360654854">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1591360654854" />
+    <state width="537" height="446" key="SwitcherDM" timestamp="1591494291779">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="537" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1591494291779" />
+    <state x="178" y="42" key="new project wizard" timestamp="1591269510533">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="42" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1591269510533" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1591486262691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1591486262691" />
+  </component>
+</project>

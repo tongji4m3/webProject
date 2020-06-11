@@ -1,0 +1,63 @@
+CREATE DATABASE webProject;
+USE webProject;
+
+CREATE TABLE USER(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	username VARCHAR(32),
+	PASSWORD VARCHAR(32),
+	phone VARCHAR(32),
+	address VARCHAR(32)
+);
+
+CREATE TABLE product(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	NAME VARCHAR(32),
+	money DOUBLE(9,2)
+);
+
+
+
+
+CREATE TABLE shoppingCart(
+	userId INT,
+	productId INT,
+	PRIMARY KEY(userId,productId),
+	FOREIGN KEY(userId) REFERENCES USER(id),
+	FOREIGN KEY(productId) REFERENCES product(id)
+);
+
+
+CREATE TABLE myOrder(
+	userId INT,
+	productId INT,
+	PRIMARY KEY(userId,productId),
+	FOREIGN KEY(userId) REFERENCES USER(id),
+	FOREIGN KEY(productId) REFERENCES product(id)
+);
+
+SELECT user.id,username,phone,address,product.name,product.money
+FROM USER,product,shoppingcart 
+WHERE user.id=shoppingcart.userId AND product.id=shoppingcart.productId;
+
+SELECT user.id,username,phone,address,product.name,product.money
+FROM USER,product,myorder 
+WHERE user.id=myorder.userId AND product.id=myorder.productId;
+
+SELECT * FROM myOrder;
+
+SELECT * FROM shoppingcart;
+
+SELECT * FROM product;
+
+SELECT * FROM USER;
+
+INSERT INTO product VALUES(1,'ipad',3596.00);
+INSERT INTO product VALUES(2,'huawei',4188.00);
+INSERT INTO product VALUES(3,'lenovo',5199.00);
+INSERT INTO product VALUES(4,'sony',1349.00);
+INSERT INTO product VALUES(5,'DJI',4999.00);
+
+
+
+
+

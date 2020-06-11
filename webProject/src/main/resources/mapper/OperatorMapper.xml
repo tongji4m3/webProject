@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tongji.mapper.OperatorMapper">
+    <insert id="addBuyProduct" parameterType="buyProduct">
+        insert into myOrder values (#{userId},#{productId});
+    </insert>
+    <insert id="addJoinProduct" parameterType="joinProduct">
+        insert into shoppingCart values (#{userId},#{productId});
+    </insert>
+    <delete id="removeJoinProduct" parameterType="joinProduct">
+        delete from shoppingCart where userId=#{userId} and productId=#{productId};
+    </delete>
+
+    <select id="getJoinProduct" parameterType="int" resultType="product">
+        select name,money from shoppingCart,product
+        where shoppingCart.productId=product.id
+        and userId=#{userId};
+    </select>
+
+    <select id="getBuyProduct" parameterType="int" resultType="product">
+        select name,money from myorder,product
+        where myorder.productId=product.id
+        and userId=#{userId};
+    </select>
+
+    <delete id="removeBuyProduct" parameterType="buyProduct">
+        delete from myOrder where userId=#{userId} and productId=#{productId};
+    </delete>
+</mapper>

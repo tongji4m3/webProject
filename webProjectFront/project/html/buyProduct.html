@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品结算页面</title>
+    <link rel="stylesheet" href="../css/buyProduct.css">
+    <script src="../js/buyProduct.js"></script>
+    <script src="../js/api.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="title">
+        <span>商品结算</span>
+    </div>
+
+    <div class="title-msg">
+        <span>请仔细校验信息</span>
+    </div>
+
+    <table>
+        <tr>
+            <th>属性名</th>
+            <th>具体值</th>
+        </tr>
+        <tr>
+            <td><h3>商品名称:</h3></td>
+            <td><span id="productName"></span></td>
+        </tr>
+        <tr>
+            <td><h3>商品价格:</h3></td>
+            <td><span id="productPrice"></span></td>
+        </tr>
+        <tr>
+            <td><h3>购买人:</h3></td>
+            <td ><span id="name"></span></td>
+        </tr>
+        <tr>
+            <td><h3>手机号:</h3></td>
+            <td><span id="phone"></span></td>
+        </tr>
+        <tr>
+            <td><h3>地址:</h3></td>
+            <td><span id="address"></span></td>
+        </tr>
+    </table>
+
+
+    <div style="text-align: center">
+        <button id="buy" class="enter-btn" >购买</button>
+    </div>
+
+    <div class="foor">
+        <div class="left"><span id="returnIndex">返回首页</span></div>
+
+        <div class="right"><span id="returnDetails">返回商品详情</span></div>
+    </div>
+
+</div>
+</body>
+</html>

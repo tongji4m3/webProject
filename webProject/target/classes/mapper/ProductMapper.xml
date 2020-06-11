@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tongji.mapper.ProductMapper">
+<select id="getProduct" parameterType="string" resultType="int">
+        select money from product where name=#{productName};
+    </select>
+<select id="getProductId" parameterType="string" resultType="int">
+        select id from product where name=#{productName};
+    </select>
+</mapper>

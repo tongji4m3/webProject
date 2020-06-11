@@ -1,0 +1,110 @@
+.top {
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度改为自动高度*/
+    width: 100%;
+    margin-left: 0;
+    background: rgb(189, 181, 181);
+    position: fixed; /*固定在顶部*/
+    top: 0; /*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+
+.top ul {
+    /* 清除ul标签的默认样式 */
+    width: auto; /*宽度也改为自动*/
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    /* margin-top: 0;          */
+    padding: 0;
+
+}
+
+.top li {
+    float: left; /* 使li内容横向浮动，即横向排列  */
+    margin-right: 10%; /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+}
+
+.top li a {
+    /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color: white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+
+}
+
+.top li a:hover {
+    /* 鼠标选中时背景变为黑色 */
+    background-color: #111;
+}
+
+body {
+    background: #eff3f5;
+}
+
+#username {
+    color: #008CBA;
+}
+
+/*布局*/
+#left {
+    float: left;
+}
+
+p {
+    font-size: 20px;
+}
+
+#price
+{
+    font-size: 50px;
+    color: #f44336;
+}
+
+/*按钮*/
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
